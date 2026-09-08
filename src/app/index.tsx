@@ -1,13 +1,20 @@
+import BookCard from '@/components/BookCard'
 import Header from '@/components/Header'
-import { View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 const index = () => {
   return (
-    <View>
+    <View style={styles.container}>
       
     <Header></Header>
-
+    <BookCard/>
     </View>
   )
 }
+
+ const styles= StyleSheet.create({
+    container:{
+      gap: 15
+    }
+ })
 
 export default index
