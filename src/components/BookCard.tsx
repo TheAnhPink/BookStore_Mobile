@@ -32,7 +32,8 @@ const BookCard = () => {
             borderRadius: 10,
             borderWidth: 1,
             borderColor: "black",
-            marginRight: 20
+            marginRight: 20,
+            marginLeft: 20
 
         },
         thongtinsach:{

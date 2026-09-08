@@ -1,13 +1,22 @@
 import BookCard from '@/components/BookCard'
 import Header from '@/components/Header'
-import { StyleSheet, View } from 'react-native'
+import { ScrollView, StyleSheet, View } from 'react-native'
 const index = () => {
   return (
-    <View style={styles.container}>
+    <ScrollView>
+      <View style={styles.container}>
       
-    <Header></Header>
-    <BookCard/>
-    </View>
+      <Header></Header>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+      <BookCard/>
+  
+      </View>
+    </ScrollView>
   )
 }
 
