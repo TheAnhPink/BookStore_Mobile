@@ -1,4 +1,6 @@
 import BookCard from '@/components/BookCard'
+import BookGrid from '@/components/BookGrid'
+import CategoryChips from '@/components/CategoryChips'
 import Header from '@/components/Header'
 import { ScrollView, StyleSheet, View } from 'react-native'
 const index = () => {
@@ -8,12 +10,8 @@ const index = () => {
       
       <Header></Header>
       <BookCard/>
-      <BookCard/>
-      <BookCard/>
-      <BookCard/>
-      <BookCard/>
-      <BookCard/>
-      <BookCard/>
+      <CategoryChips></CategoryChips>
+      <BookGrid></BookGrid>
   
       </View>
     </ScrollView>
